@@ -1,0 +1,83 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+.container {
+  margin-left: 1em;
+}
+
+.text404 {
+  height: 100%;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.title404 {
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 4px black;
+}
+
+.paragraph404 {
+  margin-top: 1em;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.linkref {
+  color: white;
+  text-decoration: underline;
+}
+
+.btn {
+  margin-top: 3em;
+}
+
+.homeBtn {
+  border: 0.3em solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.68em;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+}
+
+.homeBtn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease;
+}
+
+.rigthCorner {
+  position: absolute;
+  right: 0;
+}
+
+.error {
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 1em 1em 0em 0em;
+}

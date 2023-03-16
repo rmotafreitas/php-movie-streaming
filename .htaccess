@@ -1,0 +1,9 @@
+RewriteEngine On
+
+#location of your website
+RewriteBase /pacotetv
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.+)$ routes.php?uri=$1 [QSA,L]
